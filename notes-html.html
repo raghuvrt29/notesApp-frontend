@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta chraset="utf-8">
+        <title>Notes</title>
+        <link rel="stylesheet" href="notes-css.css">
+    </head>
+    <body>
+        <nav class="navBar"><h1>Notes</h1></nav>
+        <div class="main">
+            <form class="noteList" id="openNote">
+                <ul id="notes">
+                    <li>
+                        <button id="newone" class="new">New Note</button>
+                    </li>
+                </ul>
+            </form>
+            <form class="noteForm" id="newNote" name="newNote">
+                <textarea id="title" name="title" form="newNote" ></textarea><br>
+                <textarea id="content" name="content" form="newNote" ></textarea><br>
+                <input type="submit" id="submit" value="submit">
+            </form>
+        </div>
+        <script src="index.js" charset="utf-8"></script>
+    </body>
+</html>
